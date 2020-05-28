@@ -1,0 +1,91 @@
+/* reset do css */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* fim do reset */  
+
+body {
+    background: #4499ff;
+    background-size: auto 100vh;
+    font-family: Helvetica;
+    height: 100vh;
+}
+
+/* se a tela tiver pelo menos 400px, carrega estes estilos */
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* se a tela tiver pelo menos 600px, carrega estes estilos */
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* se a tela tiver pelo menos 1200px, carrega estes estilos */
+@media (min-width: 1200px) {
+    body {
+        font-size: 22px;
+    }
+}
+
+
+header {
+    align-items: center;
+    display: flex;
+    height: 78vh;
+    justify-content: center;
+}
+
+.menu {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+}
+
+.site-title {
+    font-size: 4em;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+.img-portfolio {
+    height: 180px;
+    width: 180px;
+}
